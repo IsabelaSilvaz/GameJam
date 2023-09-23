@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "Limbo",
 	"plugin-id": "Sprite",
-	"sid": 772259976344585,
+	"sid": 408691434033595,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,32 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 600,
-						"height": 400,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5799927,
-						"collisionPoly": {
-							"points": [
-								0.38333333333333336,
-								0.125,
-								0.7166666666666667,
-								0.525,
-								0.7833333333333333,
-								0.65,
-								0.11666666666666667,
-								0.625
-							]
-						},
+						"imageSpriteId": 5363089,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 132593604523047,
+				"sid": 789796752721560,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -44,5 +44,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Folha de eventos 3"
+	"eventSheet": null
 }
