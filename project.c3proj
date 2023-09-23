@@ -64,12 +64,14 @@
 	},
 	"layouts": {
 		"items": [
+			"Tela inicial",
 			"Cenario1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
+			"Folha Start",
 			"Folha de eventos 1"
 		],
 		"subfolders": []
