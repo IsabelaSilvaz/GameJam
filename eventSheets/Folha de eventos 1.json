@@ -5,68 +5,67 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "boneco",
-					"sid": 664995628712685,
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 658111716937003,
 					"parameters": {
-						"object": "Sprite"
+						"key": 39
 					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 670671249807432
-				}
-			],
-			"sid": 604532281328264
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-moving",
-					"objectClass": "boneco",
-					"sid": 478539573789541,
-					"behaviorType": "Plataforma"
 				}
 			],
 			"actions": [
 				{
 					"id": "set-animation",
 					"objectClass": "boneco",
-					"sid": 535555570747134,
+					"sid": 639834495936689,
 					"parameters": {
 						"animation": "\"andar\"",
 						"from": "beginning"
 					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "boneco",
+					"sid": 756601981050743,
+					"parameters": {
+						"state": "not-mirrored"
+					}
 				}
 			],
-			"sid": 895275681877694
+			"sid": 558578594544037
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-on-floor",
-					"objectClass": "boneco",
-					"sid": 636226303610056,
-					"behaviorType": "Plataforma"
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 870617758272875,
+					"parameters": {
+						"key": 37
+					}
 				}
 			],
 			"actions": [
 				{
 					"id": "set-animation",
 					"objectClass": "boneco",
-					"sid": 680203385664340,
+					"sid": 859920705716781,
 					"parameters": {
-						"animation": "\"parar\"",
+						"animation": "\"andar\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "boneco",
+					"sid": 824380747036292,
+					"parameters": {
+						"state": "mirrored"
 					}
 				}
 			],
-			"sid": 907484280825238
+			"sid": 270051311965169
 		},
 		{
 			"eventType": "block",
@@ -74,22 +73,81 @@
 				{
 					"id": "is-jumping",
 					"objectClass": "boneco",
-					"sid": 479134299318869,
+					"sid": 119717342601016,
 					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "boneco",
+					"sid": 332047131437193,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "jump"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 236241073137735,
+					"parameters": {
+						"animation": "\"pular\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 576924125426054
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "boneco",
+					"sid": 783774281900627,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 189444741234330,
+					"parameters": {
+						"key": 39
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 252485688611392,
+					"parameters": {
+						"key": 37
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 219291601530777,
+					"parameters": {
+						"key": 38
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
 				{
 					"id": "set-animation",
 					"objectClass": "boneco",
-					"sid": 492322838260302,
+					"sid": 707301388603559,
 					"parameters": {
-						"animation": "\"pular\"",
-						"from": "current-frame"
+						"animation": "\"parar\"",
+						"from": "beginning"
 					}
 				}
 			],
-			"sid": 904449196497596
+			"sid": 942374026780500
 		}
 	],
 	"sid": 482901769900454
