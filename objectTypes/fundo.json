@@ -1,7 +1,7 @@
 {
-	"name": "fundo",
+	"name": "Fundo",
 	"plugin-id": "Sprite",
-	"sid": 690493284159172,
+	"sid": 998443885280555,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,13 +18,13 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 609881,
+						"imageSpriteId": 8609803,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 952556830466581,
+				"sid": 475451435949513,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,0 +1,75 @@
+{
+	"name": "Senoide1",
+	"plugin-id": "Sprite",
+	"sid": 794203849133028,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 973262318218813
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Senóide",
+			"sid": 937706552909584
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 70,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 733294,
+						"collisionPoly": {
+							"points": [
+								0.2,
+								0.36,
+								1,
+								0.37,
+								1,
+								0.44,
+								0.9714285714285714,
+								0.55,
+								0.8857142857142857,
+								0.65,
+								0.6857142857142857,
+								0.75,
+								0.34285714285714286,
+								0.75,
+								0.22857142857142856,
+								0.73,
+								0.11428571428571428,
+								0.67,
+								0.014285714285714285,
+								0.43,
+								0.02857142857142857,
+								0.38
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 184115738201880,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
