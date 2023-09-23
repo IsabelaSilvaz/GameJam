@@ -51,7 +51,8 @@
 			"sol",
 			"boneco",
 			"Limbo",
-			"Teclado"
+			"Teclado",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -63,9 +64,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Start",
-			"Cenario1",
-			"Layout 2"
+			"Cenario1"
 		],
 		"subfolders": []
 	},
