@@ -100,7 +100,32 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "fim de jogo.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 946031345228524,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Som quando o boneco pula.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 978797708703287,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Som quando passa pelo espelho.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 767381620709395,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
