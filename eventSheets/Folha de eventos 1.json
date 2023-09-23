@@ -1,0 +1,96 @@
+{
+	"name": "Folha de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 664995628712685,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 670671249807432
+				}
+			],
+			"sid": 604532281328264
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "boneco",
+					"sid": 478539573789541,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 535555570747134,
+					"parameters": {
+						"animation": "\"andar\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 895275681877694
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "boneco",
+					"sid": 636226303610056,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 680203385664340,
+					"parameters": {
+						"animation": "\"parar\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 907484280825238
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "boneco",
+					"sid": 479134299318869,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 492322838260302,
+					"parameters": {
+						"animation": "\"pular\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 904449196497596
+		}
+	],
+	"sid": 482901769900454
+}
