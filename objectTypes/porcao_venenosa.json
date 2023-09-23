@@ -1,7 +1,7 @@
 {
-	"name": "fundo",
+	"name": "porcao_venenosa",
 	"plugin-id": "Sprite",
-	"sid": 690493284159172,
+	"sid": 435305801252403,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,44 @@
 			{
 				"frames": [
 					{
-						"width": 1080,
-						"height": 259,
+						"width": 16,
+						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 609881,
+						"imageSpriteId": 6691674,
+						"collisionPoly": {
+							"points": [
+								0.375,
+								0.25,
+								0.625,
+								0.25,
+								0.6875,
+								0.3125,
+								0.75,
+								0.625,
+								0.75,
+								0.875,
+								0.625,
+								1,
+								0.375,
+								1,
+								0.25,
+								0.875,
+								0.25,
+								0.625,
+								0.3125,
+								0.3125
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 952556830466581,
+				"sid": 631054208342909,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

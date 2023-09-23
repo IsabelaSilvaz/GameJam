@@ -1,7 +1,7 @@
 {
-	"name": "fundo",
+	"name": "start",
 	"plugin-id": "Sprite",
-	"sid": 690493284159172,
+	"sid": 637912250575429,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,34 @@
 			{
 				"frames": [
 					{
-						"width": 1080,
-						"height": 259,
+						"width": 122,
+						"height": 122,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 609881,
+						"imageSpriteId": 6763438,
+						"collisionPoly": {
+							"points": [
+								0.13934426229508196,
+								0.22950819672131148,
+								0.8114754098360656,
+								0.2540983606557377,
+								0.7950819672131147,
+								0.4262295081967213,
+								0.10655737704918032,
+								0.4016393442622951,
+								0.10655737704918032,
+								0.26229508196721313
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 952556830466581,
+				"sid": 593731121049478,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

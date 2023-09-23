@@ -52,7 +52,14 @@
 			"boneco",
 			"Limbo",
 			"Teclado",
-			"Sprite"
+			"arvore",
+			"espelho",
+			"placa",
+			"chao2",
+			"joaninha",
+			"porcao_venenosa",
+			"start",
+			"restart"
 		],
 		"subfolders": []
 	},

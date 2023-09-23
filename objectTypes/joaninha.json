@@ -1,0 +1,68 @@
+{
+	"name": "joaninha",
+	"plugin-id": "Sprite",
+	"sid": 926573688240231,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 755076,
+						"collisionPoly": {
+							"points": [
+								0.26666666666666666,
+								0.3,
+								0.6666666666666666,
+								0.3,
+								0.7333333333333333,
+								0.3333333333333333,
+								0.7666666666666667,
+								0.36666666666666664,
+								0.8,
+								0.43333333333333335,
+								0.8,
+								0.5666666666666667,
+								0.7666666666666667,
+								0.6,
+								0.7,
+								0.6333333333333333,
+								0.5666666666666667,
+								0.6666666666666666,
+								0.23333333333333334,
+								0.6666666666666666,
+								0.16666666666666666,
+								0.6333333333333333,
+								0.16666666666666666,
+								0.4,
+								0.2,
+								0.3333333333333333
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 981382081160563,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
