@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "Start",
 	"layers": [
 		{
 			"name": "Camada 0",
@@ -7,42 +7,22 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "boneco",
+					"type": "fundo",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "andar",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 21,
 					"instanceVariables": {},
-					"behaviors": {
-						"CentrarEm": {
-							"properties": {
-								"enabled": false
-							}
-						},
-						"Plataforma": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 276,
-						"y": 233,
-						"width": 79.992,
-						"height": 164.472,
+						"x": 797,
+						"y": 306,
+						"width": 1605,
+						"height": 603,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

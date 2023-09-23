@@ -28,6 +28,13 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "filechooser",
+			"name": "Selecionador de arquivo",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
@@ -60,7 +67,8 @@
 			"Sprite",
 			"Forma3D",
 			"Sprite2",
-			"Teclado"
+			"Teclado",
+			"SelecionadorDeArquivo"
 		],
 		"subfolders": []
 	},
@@ -73,7 +81,7 @@
 	"layouts": {
 		"items": [
 			"Cenario1",
-			"Layout 1",
+			"Start",
 			"Layout 2"
 		],
 		"subfolders": []
