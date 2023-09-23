@@ -169,6 +169,81 @@
 				}
 			],
 			"sid": 449370465653009
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 317238486071165,
+					"parameters": {
+						"object": "joaninha"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 979346508211712,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 606907756160282,
+							"parameters": {
+								"first-value": "joaninha.Senóide.CyclePosition",
+								"comparison": 2,
+								"second-value": "0.25"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 924084227187038,
+							"parameters": {
+								"first-value": "joaninha.Senóide.CyclePosition",
+								"comparison": 4,
+								"second-value": "0.75"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "joaninha",
+							"sid": 745764453720740,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 184609960003793,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 736345247679883
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "joaninha",
+							"sid": 935223784835945,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 679047630859122
+				}
+			]
 		}
 	],
 	"sid": 482901769900454
