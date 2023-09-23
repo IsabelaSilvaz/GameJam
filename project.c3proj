@@ -15,22 +15,8 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Shape3D",
-			"name": "Forma 3D",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "filechooser",
-			"name": "Selecionador de arquivo",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -64,12 +50,8 @@
 			"chao",
 			"sol",
 			"boneco",
-			"Sprite",
-			"Forma3D",
-			"Sprite2",
-			"Teclado",
-			"SelecionadorDeArquivo",
-			"Sprite3"
+			"Limbo",
+			"Teclado"
 		],
 		"subfolders": []
 	},
@@ -89,9 +71,7 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1",
-			"Folha de eventos 2",
-			"Folha de eventos 3"
+			"Folha de eventos 1"
 		],
 		"subfolders": []
 	},
