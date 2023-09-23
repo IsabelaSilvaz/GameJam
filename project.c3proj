@@ -80,8 +80,8 @@
 	},
 	"layouts": {
 		"items": [
-			"Cenario1",
 			"Start",
+			"Cenario1",
 			"Layout 2"
 		],
 		"subfolders": []
