@@ -59,7 +59,10 @@
 			"joaninha",
 			"porcao_venenosa",
 			"start",
-			"restart"
+			"restart",
+			"Sprite",
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},

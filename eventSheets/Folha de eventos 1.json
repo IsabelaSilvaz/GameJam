@@ -148,6 +148,27 @@
 				}
 			],
 			"sid": 942374026780500
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 236304694549623,
+					"parameters": {
+						"object": "Limbo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 545843161412424
+				}
+			],
+			"sid": 449370465653009
 		}
 	],
 	"sid": 482901769900454
