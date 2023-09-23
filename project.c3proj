@@ -64,13 +64,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Cenario1"
+			"Cenario1",
+			"Layout 1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1"
+			"Folha de eventos 1",
+			"Folha de eventos 2"
 		],
 		"subfolders": []
 	},
