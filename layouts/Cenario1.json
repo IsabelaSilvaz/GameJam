@@ -273,7 +273,7 @@
 					}
 				},
 				{
-					"type": "Limbo",
+					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -477,7 +477,7 @@
 							1,
 							1
 						],
-						"angle": 6.278745076821711,
+						"angle": 0.003288347355800969,
 						"zElevation": 0
 					}
 				},

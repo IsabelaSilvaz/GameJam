@@ -19,10 +19,39 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 803,
-						"y": 298,
-						"width": 1617,
+						"x": 780.5,
+						"y": 288,
+						"width": 1654,
 						"height": 619,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "name start",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 740,
+						"y": 337,
+						"width": 381,
+						"height": 306,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -74,5 +103,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "Folha de eventos 2"
 }
