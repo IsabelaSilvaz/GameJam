@@ -113,7 +113,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1"
+			"Folha de eventos 1",
+			"folha tela inicial"
 		],
 		"subfolders": []
 	},
