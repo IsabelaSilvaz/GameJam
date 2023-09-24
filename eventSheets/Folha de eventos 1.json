@@ -176,6 +176,15 @@
 					"id": "restart-layout",
 					"objectClass": "System",
 					"sid": 545843161412424
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 561442403407451,
+					"parameters": {
+						"variable": "vida",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 449370465653009
@@ -400,20 +409,12 @@
 			],
 			"actions": [
 				{
-					"id": "stop",
-					"objectClass": "Áudio",
-					"sid": 880703477755436,
-					"parameters": {
-						"tag": "\"trilha inicio\""
-					}
-				},
-				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 732542601526957,
+					"sid": 998572691904860,
 					"parameters": {
 						"audio-file": "trilha cenario 1",
-						"loop": "not-looping",
+						"loop": "looping",
 						"volume": "0",
 						"stereo-pan": "0",
 						"tag-optional": "\"cenario 1\""
@@ -469,6 +470,34 @@
 				}
 			],
 			"sid": 722385347624675
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 951005474150483,
+					"parameters": {
+						"object": "Limbo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 789982047471450,
+					"parameters": {
+						"audio-file": "fim de jogo",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"cai\""
+					}
+				}
+			],
+			"sid": 925181021377034
 		}
 	],
 	"sid": 482901769900454

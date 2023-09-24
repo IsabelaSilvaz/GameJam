@@ -186,13 +186,13 @@
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 547165522121549,
+					"sid": 733311277084522,
 					"parameters": {
-						"audio-file": "Trilha sonora",
+						"audio-file": "trilha cenario 1",
 						"loop": "looping",
 						"volume": "0",
 						"stereo-pan": "0",
-						"tag-optional": "\"trilha inicio\""
+						"tag-optional": "\"cenario 1\""
 					}
 				}
 			],
@@ -237,7 +237,7 @@
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 327645488228424,
+					"sid": 782379705951188,
 					"parameters": {
 						"audio-file": "Som quando passa pelo espelho",
 						"loop": "not-looping",

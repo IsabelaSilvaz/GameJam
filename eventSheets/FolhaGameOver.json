@@ -3,27 +3,31 @@
 	"events": [
 		{
 			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 135190161378623
+		},
+		{
+			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Teclado",
-					"sid": 193353146925453,
-					"parameters": {
-						"key": 13
-					}
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 819087713133562
 				}
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 473887794482376,
+					"id": "seek-to",
+					"objectClass": "Áudio",
+					"sid": 792356092979637,
 					"parameters": {
-						"layout": "Cenario1"
+						"tag": "\"trilha cenario 1\"",
+						"position": "0"
 					}
 				}
 			],
-			"sid": 218392526314001
+			"sid": 240569673757744
 		}
 	],
 	"sid": 849499227005857
