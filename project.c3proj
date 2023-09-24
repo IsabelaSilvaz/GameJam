@@ -107,7 +107,6 @@
 			"joaninha",
 			"porcao_venenosa",
 			"start",
-			"restart",
 			"parede",
 			"Fundo",
 			"Castelo",
@@ -130,8 +129,16 @@
 			"Sprite7",
 			"Sprite8",
 			"Sprite9",
-			"Sprite10",
-			"Áudio"
+			"Restart",
+			"Áudio",
+			"Sprite12",
+			"Sprite11",
+			"Sprite13",
+			"Sprite14",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"marcosdoinicio"
 		],
 		"subfolders": []
 	},
@@ -143,10 +150,11 @@
 	},
 	"layouts": {
 		"items": [
+			"Start",
 			"Tela inicial",
-			"GameOver",
 			"Cenario1",
-			"Cenario-Briga"
+			"Cenario-Briga",
+			"GameOver"
 		],
 		"subfolders": []
 	},
@@ -154,7 +162,8 @@
 		"items": [
 			"Folha de eventos 1",
 			"folha tela inicial",
-			"FolhaGameOver"
+			"FolhaGameOver",
+			"Folha Start"
 		],
 		"subfolders": []
 	},

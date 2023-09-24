@@ -1,0 +1,30 @@
+{
+	"name": "Folha Start",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 801569287316347,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 811797307026774,
+					"parameters": {
+						"layout": "Tela inicial"
+					}
+				}
+			],
+			"sid": 846112447231001
+		}
+	],
+	"sid": 350023299802676
+}

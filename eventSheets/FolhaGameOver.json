@@ -19,6 +19,15 @@
 						"tag": "\"trilha cenario 1\"",
 						"position": "0"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Restart",
+					"sid": 462758605014507,
+					"parameters": {
+						"animation": "\"restart\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 240569673757744
@@ -36,6 +45,15 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 672247135966186,
+					"parameters": {
+						"variable": "vida",
+						"value": "6"
+					}
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",

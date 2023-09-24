@@ -28,7 +28,7 @@
 						"x": 751,
 						"y": 301,
 						"width": 1504.9999999999998,
-						"height": 606,
+						"height": 600,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -86,10 +86,10 @@
 					}
 				},
 				{
-					"type": "Sprite10",
+					"type": "Restart",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "restart",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
