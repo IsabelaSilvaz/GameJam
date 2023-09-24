@@ -12,12 +12,11 @@
 			],
 			"actions": [
 				{
-					"id": "seek-to",
+					"id": "set-silent",
 					"objectClass": "Áudio",
-					"sid": 792356092979637,
+					"sid": 276666362485455,
 					"parameters": {
-						"tag": "\"trilha cenario 1\"",
-						"position": "0"
+						"mode": "silent"
 					}
 				},
 				{

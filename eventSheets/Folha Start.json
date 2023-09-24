@@ -21,6 +21,18 @@
 					"parameters": {
 						"layout": "Tela inicial"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 134431492506231,
+					"parameters": {
+						"audio-file": "Click Start",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"click\""
+					}
 				}
 			],
 			"sid": 846112447231001

@@ -405,19 +405,40 @@
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 255612770458013
+				},
+				{
+					"id": "is-tag-playing",
+					"objectClass": "Áudio",
+					"sid": 737899894601573,
+					"parameters": {
+						"tag": "\"trilha cenario 1\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 998572691904860,
+					"sid": 669354456849695,
 					"parameters": {
 						"audio-file": "trilha cenario 1",
 						"loop": "looping",
-						"volume": "0",
+						"volume": "-5",
 						"stereo-pan": "0",
 						"tag-optional": "\"cenario 1\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 243662107908782,
+					"parameters": {
+						"audio-file": "trilha cenario 1",
+						"loop": "not-looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -487,11 +508,11 @@
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 791501992373141,
+					"sid": 506058346528544,
 					"parameters": {
 						"audio-file": "fim de jogo",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-2",
 						"stereo-pan": "0",
 						"tag-optional": "\"cai\""
 					}
