@@ -2,6 +2,16 @@
 	"name": "Folha de eventos 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "vida",
+			"type": "number",
+			"initialValue": "6",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 787372413891193
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -244,6 +254,73 @@
 					"sid": 679047630859122
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 330913572364612,
+					"parameters": {
+						"object": "porcao_venenosa"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "porcao_venenosa",
+					"sid": 108967661464813
+				}
+			],
+			"sid": 826640250150082
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 120901612367166,
+					"parameters": {
+						"object": "joaninha"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 151164026464919,
+					"parameters": {
+						"variable": "vida",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 607149189426460
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 357031211509557
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "vidas",
+					"sid": 556672621813460,
+					"parameters": {
+						"frame-number": "vida"
+					}
+				}
+			],
+			"sid": 864137928452371
 		}
 	],
 	"sid": 482901769900454
