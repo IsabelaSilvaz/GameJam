@@ -321,6 +321,36 @@
 				}
 			],
 			"sid": 864137928452371
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 909308836786985,
+					"parameters": {
+						"object": "espelho"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 637189214985228,
+					"parameters": {
+						"layout": "Cenario1"
+					}
+				}
+			],
+			"sid": 940828263033668
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 869700651954804
 		}
 	],
 	"sid": 482901769900454

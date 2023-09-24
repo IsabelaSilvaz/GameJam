@@ -21,6 +21,13 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Anchor",
 			"name": "Âncora",
@@ -78,7 +85,16 @@
 			"Castelo",
 			"Senoide1",
 			"Senoide2",
-			"vidas"
+			"vidas",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6",
+			"s",
+			"Texto",
+			"Sprite7",
+			"Sprite8"
 		],
 		"subfolders": []
 	},
@@ -97,7 +113,6 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Folha Start",
 			"Folha de eventos 1"
 		],
 		"subfolders": []
@@ -295,7 +310,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 1600,
-	"viewportHeight": 600,
+	"viewportWidth": 1700,
+	"viewportHeight": 603,
 	"firstLayout": null
 }
