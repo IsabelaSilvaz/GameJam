@@ -172,6 +172,82 @@
 				}
 			],
 			"sid": 878115958856424
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 887496844883950
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 547165522121549,
+					"parameters": {
+						"audio-file": "Trilha sonora",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"trilha inicio\""
+					}
+				}
+			],
+			"sid": 823633648807105
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "boneco",
+					"sid": 323569032510128,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 526069903984106,
+					"parameters": {
+						"audio-file": "Som quando o boneco pula",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"jump\""
+					}
+				}
+			],
+			"sid": 149669604733467
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 365869114857965
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 327645488228424,
+					"parameters": {
+						"audio-file": "Som quando passa pelo espelho",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"espelho som\""
+					}
+				}
+			],
+			"sid": 890825086437009
 		}
 	],
 	"sid": 775060274021940

@@ -388,6 +388,87 @@
 				}
 			],
 			"sid": 142610400390298
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 255612770458013
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 880703477755436,
+					"parameters": {
+						"tag": "\"trilha inicio\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 732542601526957,
+					"parameters": {
+						"audio-file": "trilha cenario 1",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"cenario 1\""
+					}
+				}
+			],
+			"sid": 607010544325337
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "boneco",
+					"sid": 467949967033610,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 382559188207462,
+					"parameters": {
+						"audio-file": "Som quando o boneco pula",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"pulo2\""
+					}
+				}
+			],
+			"sid": 534818256967939
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "boneco",
+					"sid": 234130640349842,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 791883515455768,
+					"parameters": {
+						"tag": "\"jump\""
+					}
+				}
+			],
+			"sid": 722385347624675
 		}
 	],
 	"sid": 482901769900454
