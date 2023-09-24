@@ -297,6 +297,17 @@
 						"variable": "vida",
 						"value": "1"
 					}
+				},
+				{
+					"id": "flash",
+					"objectClass": "boneco",
+					"sid": 116583894686087,
+					"behaviorType": "Piscar",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
 				}
 			],
 			"sid": 607149189426460
@@ -324,9 +335,27 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 869700651954804
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 412595456861758,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 240936472350364,
+					"parameters": {
+						"layout": "Cenario-Briga"
+					}
+				}
+			],
+			"sid": 144670890706019
 		}
 	],
 	"sid": 482901769900454

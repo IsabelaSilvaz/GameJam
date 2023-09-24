@@ -41,6 +41,42 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite6",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 77,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1044,
+						"y": 623,
+						"width": 916,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 891112437812316,
@@ -90,9 +126,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 847,
-						"y": 307,
+						"y": 312,
 						"width": 1723,
-						"height": 609,
+						"height": 619,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -193,13 +229,16 @@
 								"default-controls": true,
 								"enabled": true
 							}
+						},
+						"Piscar": {
+							"properties": {}
 						}
 					},
 					"world": {
-						"x": 673,
-						"y": 378,
-						"width": 94.992,
-						"height": 182.472,
+						"x": 704.5,
+						"y": 436.5,
+						"width": 42.99199999999999,
+						"height": 98.47199999999998,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
