@@ -1,0 +1,30 @@
+{
+	"name": "FolhaGameOver",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 193353146925453,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 473887794482376,
+					"parameters": {
+						"layout": "Cenario1"
+					}
+				}
+			],
+			"sid": 218392526314001
+		}
+	],
+	"sid": 849499227005857
+}

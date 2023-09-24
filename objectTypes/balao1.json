@@ -4,7 +4,13 @@
 	"sid": 213292638224069,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Esmaecer",
+			"sid": 243588810403083
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

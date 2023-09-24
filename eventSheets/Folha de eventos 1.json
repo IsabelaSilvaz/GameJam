@@ -356,6 +356,38 @@
 				}
 			],
 			"sid": 144670890706019
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 983819110263561
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 770229144175021,
+					"parameters": {
+						"variable": "vida",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 141480846439588,
+					"parameters": {
+						"layout": "GameOver"
+					}
+				}
+			],
+			"sid": 142610400390298
 		}
 	],
 	"sid": 482901769900454

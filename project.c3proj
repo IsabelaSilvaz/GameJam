@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Fade",
+			"name": "Esmaecer",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Flash",
 			"name": "Piscar",
 			"author": "Scirra",
@@ -106,7 +113,10 @@
 			"Sprite4",
 			"Sprite5",
 			"Sprite6",
-			"Sprite7"
+			"Sprite7",
+			"Sprite8",
+			"Sprite9",
+			"Sprite10"
 		],
 		"subfolders": []
 	},
@@ -119,6 +129,7 @@
 	"layouts": {
 		"items": [
 			"Tela inicial",
+			"GameOver",
 			"Cenario1",
 			"Cenario-Briga"
 		],
@@ -127,7 +138,8 @@
 	"eventSheets": {
 		"items": [
 			"Folha de eventos 1",
-			"folha tela inicial"
+			"folha tela inicial",
+			"FolhaGameOver"
 		],
 		"subfolders": []
 	},
