@@ -1,18 +1,11 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 35900,
+	"savedWithRelease": 35800,
 	"name": "Game jam das minas",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
 	"usedAddons": [
-		{
-			"type": "plugin",
-			"id": "Audio",
-			"name": "Áudio",
-			"author": "Scirra",
-			"bundled": false
-		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
@@ -38,13 +31,6 @@
 			"type": "behavior",
 			"id": "Anchor",
 			"name": "Âncora",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Fade",
-			"name": "Esmaecer",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -120,8 +106,7 @@
 			"Sprite4",
 			"Sprite5",
 			"Sprite6",
-			"Sprite7",
-			"Áudio"
+			"Sprite7"
 		],
 		"subfolders": []
 	},

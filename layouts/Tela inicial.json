@@ -77,35 +77,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "balao1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 81,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 575,
-						"y": 293,
-						"width": 651,
-						"height": 359,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 891112437812316,
@@ -154,8 +125,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 855,
-						"y": 308,
+						"x": 847,
+						"y": 312,
 						"width": 1723,
 						"height": 619,
 						"originX": 0.5,
@@ -281,7 +252,7 @@
 					}
 				},
 				{
-					"type": "balao2",
+					"type": "balao1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -289,25 +260,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 57,
+					"uid": 55,
 					"instanceVariables": {},
-					"behaviors": {
-						"Esmaecer": {
-							"properties": {
-								"fade-in-time": 0,
-								"wait-time": 12,
-								"fade-out-time": 1,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 827.5,
-						"y": 243,
-						"width": 928,
-						"height": 402,
+						"x": 1289,
+						"y": 139.5,
+						"width": 651,
+						"height": 359,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -323,7 +283,80 @@
 				{
 					"type": "Texto",
 					"properties": {
-						"text": "Em uma tarde nublada, Marcos, um jovem curioso e aventureiro, se deparou com um espelho antigo e enigmático em casa antiga. Movido pela irresistível atração do desconhecido.                               Ele se aproximou do espelho e, sem hesitar, deu um passo ousado para dentro dele, apenas para descobrir seu mistério.",
+						"text": "Ele se aproximou do espelho e, sem hesitar, deu um passo ousado para dentro dele, apenas para descobrir seu mistério.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 20,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.9568627450980393,
+							0.9411764705882353,
+							0.9411764705882353,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 56,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1050,
+						"y": 69,
+						"width": 503.53512289636984,
+						"height": 304.9490283049892,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.270849796850005,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "balao2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 57,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 290,
+						"y": 141,
+						"width": 653,
+						"height": 353,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto",
+					"properties": {
+						"text": "Em uma tarde nublada, Marcos, um jovem curioso e aventureiro, se deparou com um espelho antigo e enigmático em casa antiga. Movido pela irresistível atração do desconhecido.",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 20,
@@ -346,23 +379,12 @@
 					},
 					"uid": 58,
 					"instanceVariables": {},
-					"behaviors": {
-						"Esmaecer": {
-							"properties": {
-								"fade-in-time": 0,
-								"wait-time": 12,
-								"fade-out-time": 1,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 482,
-						"y": 138,
-						"width": 714.3193877872976,
-						"height": 356.24119289125116,
+						"x": 65,
+						"y": 31,
+						"width": 500.4983455482176,
+						"height": 295.9127074454938,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -388,8 +410,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1312,
-						"y": 341,
+						"x": 1314,
+						"y": 339,
 						"width": 202,
 						"height": 314,
 						"originX": 0.5,

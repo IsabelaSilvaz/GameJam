@@ -4,12 +4,6 @@
 	"sid": 105810291062391,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Fade",
-			"name": "Esmaecer",
-			"sid": 802545251089873
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": []
 }
