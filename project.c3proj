@@ -82,6 +82,13 @@
 			"name": "Sólido",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "overlay",
+			"name": "Sobreposição",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "r21p30rffta",

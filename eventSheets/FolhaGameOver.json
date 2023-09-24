@@ -3,12 +3,6 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 135190161378623
-		},
-		{
-			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-start-of-layout",
@@ -28,6 +22,30 @@
 				}
 			],
 			"sid": 240569673757744
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 122071378752604,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 846919217370406,
+					"parameters": {
+						"layout": "Cenario1"
+					}
+				}
+			],
+			"sid": 324947103298628
 		}
 	],
 	"sid": 849499227005857

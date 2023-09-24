@@ -18,6 +18,12 @@
 					"uid": 78,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Sobreposição": {
+							"isEnabled": true,
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 751,
 						"y": 301,
