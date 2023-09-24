@@ -132,6 +132,22 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "Click Start.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 862031696263155,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Trilha sonora.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 855966974892487,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
