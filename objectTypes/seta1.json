@@ -1,7 +1,7 @@
 {
-	"name": "Sprite5",
+	"name": "seta1",
 	"plugin-id": "Sprite",
-	"sid": 875196503155390,
+	"sid": 349783171086735,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,30 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 70,
-						"height": 89,
+						"width": 32,
+						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9113256,
-						"collisionPoly": {
-							"points": [
-								0.14285714285714285,
-								0,
-								1,
-								0,
-								0.9857142857142858,
-								0.8876404494382022
-							]
-						},
+						"imageSpriteId": 1300016,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 208228614251735,
+				"sid": 279659660070934,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,7 +1,7 @@
 {
-	"name": "Sprite6",
+	"name": "fundoInicial",
 	"plugin-id": "Sprite",
-	"sid": 213292638224069,
+	"sid": 625892800547488,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,36 +11,24 @@
 			{
 				"frames": [
 					{
-						"width": 259,
-						"height": 100,
+						"width": 777,
+						"height": 267,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7519592,
+						"imageSpriteId": 721811,
 						"collisionPoly": {
 							"points": [
-								0.14285714285714285,
-								0.12,
-								0.8957528957528957,
-								0.16,
-								0.9073359073359073,
-								0.21,
-								0.9073359073359073,
-								0.7,
-								0.8687258687258688,
-								0.78,
-								0.2857142857142857,
-								1,
-								0.23938223938223938,
-								1,
-								0.20463320463320464,
-								0.94,
-								0.10810810810810811,
-								0.71,
-								0.10810810810810811,
-								0.19
+								0.005148005148005148,
+								0,
+								0.9948519948519948,
+								0,
+								0.9948519948519948,
+								0.9700374531835206,
+								0.005148005148005148,
+								0.9700374531835206
 							]
 						},
 						"useCollisionPoly": true,
@@ -48,7 +36,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 137040114383930,
+				"sid": 181309946598887,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

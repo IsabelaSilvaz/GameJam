@@ -80,21 +80,24 @@
 			"porcao_venenosa",
 			"start",
 			"restart",
-			"Sprite",
+			"parede",
 			"Fundo",
 			"Castelo",
 			"Senoide1",
 			"Senoide2",
 			"vidas",
-			"Sprite2",
+			"fundoInicial",
 			"Sprite3",
-			"Sprite4",
-			"Sprite5",
-			"Sprite6",
-			"s",
+			"seta1",
+			"seta2",
+			"balao1",
 			"Texto",
-			"Sprite7",
-			"Sprite8"
+			"balao2",
+			"ceu",
+			"Sprite",
+			"Sprite2",
+			"Sprite4",
+			"Sprite5"
 		],
 		"subfolders": []
 	},
@@ -107,7 +110,8 @@
 	"layouts": {
 		"items": [
 			"Tela inicial",
-			"Cenario1"
+			"Cenario1",
+			"Cenario-Briga"
 		],
 		"subfolders": []
 	},
@@ -311,7 +315,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 1700,
+	"viewportWidth": 1500,
 	"viewportHeight": 603,
 	"firstLayout": null
 }

@@ -1,7 +1,7 @@
 {
-	"name": "Sprite5",
+	"name": "balao2",
 	"plugin-id": "Sprite",
-	"sid": 875196503155390,
+	"sid": 514504330570261,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,22 +11,36 @@
 			{
 				"frames": [
 					{
-						"width": 70,
-						"height": 89,
+						"width": 259,
+						"height": 100,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9113256,
+						"imageSpriteId": 9391965,
 						"collisionPoly": {
 							"points": [
 								0.14285714285714285,
-								0,
+								0.12,
+								0.8957528957528957,
+								0.16,
+								0.9073359073359073,
+								0.21,
+								0.9073359073359073,
+								0.7,
+								0.8687258687258688,
+								0.78,
+								0.2857142857142857,
 								1,
-								0,
-								0.9857142857142858,
-								0.8876404494382022
+								0.23938223938223938,
+								1,
+								0.20463320463320464,
+								0.94,
+								0.10810810810810811,
+								0.71,
+								0.10810810810810811,
+								0.19
 							]
 						},
 						"useCollisionPoly": true,
@@ -34,7 +48,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 208228614251735,
+				"sid": 899814589322282,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
