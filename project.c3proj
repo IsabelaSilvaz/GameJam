@@ -139,7 +139,13 @@
 			"Sprite16",
 			"Sprite17",
 			"marcosdoinicio",
-			"Sprite10"
+			"Sprite10",
+			"Sprite18",
+			"Texto2",
+			"Sprite19",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22"
 		],
 		"subfolders": []
 	},
@@ -155,7 +161,8 @@
 			"Tela inicial",
 			"Cenario1",
 			"Cenario-Briga",
-			"GameOver"
+			"GameOver",
+			"Continua"
 		],
 		"subfolders": []
 	},

@@ -1629,7 +1629,81 @@
 			"name": "Camada 1",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "Sprite18",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1203.5666242621649,
+						"y": 57.74696105369124,
+						"width": 38.74705407634201,
+						"height": 36.81933762919478,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto2",
+					"properties": {
+						"text": "0",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 20,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 33,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1220.1902342140831,
+						"y": 47.631958685394395,
+						"width": 18.023567389260734,
+						"height": 29.228913421140945,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 607851526919685,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

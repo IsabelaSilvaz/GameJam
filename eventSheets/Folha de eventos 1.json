@@ -3,6 +3,16 @@
 	"events": [
 		{
 			"eventType": "variable",
+			"name": "pocoes",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 337800289027291
+		},
+		{
+			"eventType": "variable",
 			"name": "vida",
 			"type": "number",
 			"initialValue": "6",
@@ -281,6 +291,15 @@
 					"id": "destroy",
 					"objectClass": "porcao_venenosa",
 					"sid": 108967661464813
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 275394528166165,
+					"parameters": {
+						"variable": "pocoes",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 826640250150082
@@ -337,6 +356,14 @@
 					"sid": 556672621813460,
 					"parameters": {
 						"frame-number": "vida"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Texto2",
+					"sid": 578196649380774,
+					"parameters": {
+						"text": "pocoes"
 					}
 				}
 			],

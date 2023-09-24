@@ -12,12 +12,9 @@
 			],
 			"actions": [
 				{
-					"id": "set-silent",
+					"id": "stop-all",
 					"objectClass": "Áudio",
-					"sid": 276666362485455,
-					"parameters": {
-						"mode": "silent"
-					}
+					"sid": 500335656581277
 				},
 				{
 					"id": "set-animation",
@@ -59,6 +56,15 @@
 					"sid": 846919217370406,
 					"parameters": {
 						"layout": "Cenario1"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 928921758972633,
+					"parameters": {
+						"variable": "pocoes",
+						"value": "0"
 					}
 				}
 			],
