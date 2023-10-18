@@ -436,9 +436,9 @@
 				{
 					"id": "is-tag-playing",
 					"objectClass": "Áudio",
-					"sid": 737899894601573,
+					"sid": 598861349167226,
 					"parameters": {
-						"tag": "\"trilha cenario 1\""
+						"tag": "\"Trilha sonora\""
 					},
 					"isInverted": true
 				}
@@ -447,25 +447,25 @@
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 669354456849695,
+					"sid": 769847373549487,
 					"parameters": {
-						"audio-file": "trilha cenario 1",
+						"audio-file": "Trilha sonora",
 						"loop": "looping",
 						"volume": "-5",
 						"stereo-pan": "0",
-						"tag-optional": "\"cenario 1\""
+						"tag-optional": "\"Trilha sonora\""
 					}
 				},
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 243662107908782,
+					"sid": 850923464581919,
 					"parameters": {
-						"audio-file": "trilha cenario 1",
+						"audio-file": "Trilha sonora",
 						"loop": "not-looping",
 						"volume": "-5",
 						"stereo-pan": "0",
-						"tag-optional": "\"\""
+						"tag-optional": "\"Trilha sonora\""
 					}
 				}
 			],
@@ -543,9 +543,41 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"cai\""
 					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 581018776664933,
+					"parameters": {
+						"tag": "\"Trilha sonora\""
+					}
 				}
 			],
 			"sid": 925181021377034
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-tag-playing",
+					"objectClass": "Áudio",
+					"sid": 728345447194289,
+					"parameters": {
+						"tag": "\"Trilha sonora\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 621518780991772,
+					"parameters": {
+						"tag": "\"musica misterio\""
+					}
+				}
+			],
+			"sid": 656327091118907
 		}
 	],
 	"sid": 482901769900454

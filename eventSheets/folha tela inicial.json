@@ -179,20 +179,20 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 887496844883950
+					"sid": 516220234624014
 				}
 			],
 			"actions": [
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 733311277084522,
+					"sid": 667256013546730,
 					"parameters": {
-						"audio-file": "trilha cenario 1",
+						"audio-file": "musica misterio",
 						"loop": "looping",
 						"volume": "0",
 						"stereo-pan": "0",
-						"tag-optional": "\"cenario 1\""
+						"tag-optional": "\"musica misterio\""
 					}
 				}
 			],
@@ -230,7 +230,7 @@
 				{
 					"id": "on-end-of-layout",
 					"objectClass": "System",
-					"sid": 365869114857965
+					"sid": 105465551811332
 				}
 			],
 			"actions": [
