@@ -1,0 +1,240 @@
+{
+	"name": "folhaCenario",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 690021529024583,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 510401854567331,
+					"parameters": {
+						"animation": "\"andar\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "boneco",
+					"sid": 326367283844397,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 581561409354099
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 622178952996683,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 590112988006044,
+					"parameters": {
+						"animation": "\"andar\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "boneco",
+					"sid": 816552670856909,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 753714869687225
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "boneco",
+					"sid": 909366361483092,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "boneco",
+					"sid": 765423363962626,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "jump"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 957683349450843,
+					"parameters": {
+						"animation": "\"pular\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 139464976970478
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "boneco",
+					"sid": 191970584121417,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 685620232537801,
+					"parameters": {
+						"key": 39
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 585687791065251,
+					"parameters": {
+						"key": 37
+					},
+					"isInverted": true
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 429249173704879,
+					"parameters": {
+						"key": 38
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "boneco",
+					"sid": 508879848271696,
+					"parameters": {
+						"animation": "\"parar\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 290535731817385
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "boneco",
+					"sid": 127922096491843,
+					"parameters": {
+						"comparison": 2,
+						"x-co-ordinate": "marcos_invertido.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "marcos_invertido",
+					"sid": 137823819853719,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "marcos_invertido",
+					"sid": 656443828446235,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "marcos_invertido",
+					"sid": 586332268330091,
+					"parameters": {
+						"animation": "\"invertido_andar\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 916953853735190
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "boneco",
+					"sid": 605878421429496,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "marcos_invertido.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "marcos_invertido",
+					"sid": 964314736478857,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "marcos_invertido",
+					"sid": 271540094975815,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "marcos_invertido",
+					"sid": 425638568600748,
+					"parameters": {
+						"animation": "\"invertido_andar\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 609173055760083
+		}
+	],
+	"sid": 131703037239747
+}

@@ -570,11 +570,55 @@
 					},
 					"world": {
 						"x": 111,
-						"y": 434,
+						"y": 443,
 						"width": 52.301727,
 						"height": 120.469273,
 						"originX": 0.5373134328358209,
 						"originY": 0.48355263157894735,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "marcos_invertido",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "invertido_parar",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 92,
+					"instanceVariables": {},
+					"behaviors": {
+						"Plataforma": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1098,
+						"y": 421,
+						"width": 100,
+						"height": 200,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -624,5 +668,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Folha de eventos 1"
+	"eventSheet": "folhaCenario"
 }

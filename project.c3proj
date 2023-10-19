@@ -9,14 +9,14 @@
 		{
 			"type": "plugin",
 			"id": "Audio",
-			"name": "Audio",
+			"name": "Áudio",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Keyboard",
+			"name": "Teclado",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -30,63 +30,63 @@
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Text",
+			"name": "Texto",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Anchor",
-			"name": "Anchor",
+			"name": "Âncora",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Fade",
-			"name": "Fade",
+			"name": "Esmaecer",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Flash",
-			"name": "Flash",
+			"name": "Piscar",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Platform",
+			"name": "Plataforma",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Sin",
-			"name": "Sine",
+			"name": "Senóide",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "Scroll To",
+			"name": "Centrar em",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solid",
+			"name": "Sólido",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "overlay",
-			"name": "Overlay",
+			"name": "Sobreposição",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -145,7 +145,8 @@
 			"Sprite19",
 			"Sprite20",
 			"Sprite21",
-			"Sprite22"
+			"Sprite22",
+			"marcos_invertido"
 		],
 		"subfolders": []
 	},
@@ -171,7 +172,8 @@
 			"Folha de eventos 1",
 			"folha tela inicial",
 			"FolhaGameOver",
-			"Folha Start"
+			"Folha Start",
+			"folhaCenario"
 		],
 		"subfolders": []
 	},
