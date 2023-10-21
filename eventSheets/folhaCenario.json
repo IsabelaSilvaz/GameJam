@@ -234,6 +234,63 @@
 				}
 			],
 			"sid": 609173055760083
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "marcos_invertido",
+					"sid": 753243792762159,
+					"parameters": {
+						"object": "boneco"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "boneco",
+					"sid": 621226430358028,
+					"behaviorType": "Piscar",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
+				}
+			],
+			"sid": 940098798674395
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 131683254170774,
+					"parameters": {
+						"object": "marcos_invertido"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "boneco",
+					"sid": 343903297638711,
+					"parameters": {
+						"comparison": 2,
+						"y-co-ordinate": "marcos_invertido.Y-33"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "marcos_invertido",
+					"sid": 164757097953642
+				}
+			],
+			"sid": 870374905803342
 		}
 	],
 	"sid": 131703037239747
