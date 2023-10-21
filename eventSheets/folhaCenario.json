@@ -258,9 +258,28 @@
 						"off-time": "0.1",
 						"duration": "1.0"
 					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 516332998876752,
+					"parameters": {
+						"variable": "vida",
+						"value": "6"
+					}
 				}
 			],
 			"sid": 940098798674395
+		},
+		{
+			"eventType": "variable",
+			"name": "vida2",
+			"type": "number",
+			"initialValue": "6",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 692265127992780
 		},
 		{
 			"eventType": "block",
@@ -291,6 +310,53 @@
 				}
 			],
 			"sid": 870374905803342
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 374004174581925
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "vidas",
+					"sid": 914044595582776,
+					"parameters": {
+						"frame-number": "vida"
+					}
+				}
+			],
+			"sid": 436668281886209
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 167887163020895,
+					"parameters": {
+						"variable": "vida",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 245421765729594,
+					"parameters": {
+						"layout": "GameOver"
+					}
+				}
+			],
+			"sid": 677218351661294
 		}
 	],
 	"sid": 131703037239747

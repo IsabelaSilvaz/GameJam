@@ -628,6 +628,45 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "vidas",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "vidas",
+						"initial-frame": 6,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 93,
+					"instanceVariables": {},
+					"behaviors": {
+						"Âncora": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1121,
+						"y": 56,
+						"width": 117.21187077385466,
+						"height": 31.031555221638,
+						"originX": 0.6086956521739131,
+						"originY": -0.07692307692307693,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 399374308354731,
