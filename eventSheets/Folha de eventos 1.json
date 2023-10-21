@@ -379,13 +379,23 @@
 					"parameters": {
 						"object": "Sprite7"
 					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 638137575576481,
+					"parameters": {
+						"variable": "pocoes",
+						"comparison": 5,
+						"value": "5"
+					}
 				}
 			],
 			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 576241275940896,
+					"sid": 906317854912152,
 					"parameters": {
 						"layout": "tirinha2"
 					}
@@ -395,9 +405,71 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 709368093118096,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 663948439573601,
+					"parameters": {
+						"variable": "pocoes",
+						"comparison": 2,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto3",
+					"sid": 783055110293665,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				}
+			],
 			"sid": 983819110263561
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 864889311584471,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 174352833539355,
+					"parameters": {
+						"variable": "pocoes",
+						"comparison": 2,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "balao1",
+					"sid": 235428166574370,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				}
+			],
+			"sid": 889279125617136
 		},
 		{
 			"eventType": "block",
@@ -578,6 +650,12 @@
 				}
 			],
 			"sid": 656327091118907
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 914070048078870
 		}
 	],
 	"sid": 482901769900454
