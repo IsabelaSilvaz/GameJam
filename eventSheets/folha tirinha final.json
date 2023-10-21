@@ -1,5 +1,5 @@
 {
-	"name": "Folha tirinha2",
+	"name": "folha tirinha final",
 	"events": [
 		{
 			"eventType": "block",
@@ -7,7 +7,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 200903977673190,
+					"sid": 613924443612722,
 					"parameters": {
 						"key": 13
 					}
@@ -17,15 +17,15 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 222815742546010,
+					"sid": 131718005361101,
 					"parameters": {
-						"layout": "Cenario-Briga"
+						"layout": "Start"
 					}
 				},
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 482002826378322,
+					"sid": 926539592881711,
 					"parameters": {
 						"audio-file": "Click Start",
 						"loop": "not-looping",
@@ -35,8 +35,8 @@
 					}
 				}
 			],
-			"sid": 325622445840658
+			"sid": 910090527034669
 		}
 	],
-	"sid": 982523966270710
+	"sid": 106653915546636
 }

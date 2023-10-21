@@ -21,6 +21,18 @@
 					"parameters": {
 						"layout": "Cenario1"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 426804495653692,
+					"parameters": {
+						"audio-file": "Click Start",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 465958172517266

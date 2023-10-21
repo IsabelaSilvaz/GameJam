@@ -262,10 +262,10 @@
 				{
 					"id": "subtract-from-eventvar",
 					"objectClass": "System",
-					"sid": 516332998876752,
+					"sid": 628798704147892,
 					"parameters": {
-						"variable": "vida",
-						"value": "6"
+						"variable": "vida2",
+						"value": "2"
 					}
 				}
 			],
@@ -338,9 +338,9 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 167887163020895,
+					"sid": 910627606627741,
 					"parameters": {
-						"variable": "vida",
+						"variable": "vida2",
 						"comparison": 0,
 						"value": "0"
 					}
@@ -354,9 +354,110 @@
 					"parameters": {
 						"layout": "GameOver"
 					}
+				},
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 366532449950689
 				}
 			],
 			"sid": 677218351661294
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "marcos_invertido",
+					"sid": 466656737136613
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 512944838611750,
+					"parameters": {
+						"layout": "tirinhaFinal"
+					}
+				}
+			],
+			"sid": 440754424067320
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "boneco",
+					"sid": 771158802613372,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 164895022832771,
+					"parameters": {
+						"audio-file": "Som quando o boneco pula",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"pulo2\""
+					}
+				}
+			],
+			"sid": 362178548550596
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 266185943598990
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 167111728250564,
+					"parameters": {
+						"audio-file": "trilha cenario 1",
+						"loop": "not-looping",
+						"volume": "-8",
+						"stereo-pan": "0",
+						"tag-optional": "\"estranha\""
+					}
+				}
+			],
+			"sid": 563727157395711
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-tag-playing",
+					"objectClass": "Áudio",
+					"sid": 409211689176894,
+					"parameters": {
+						"tag": "\"estranha\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 772109189571571,
+					"parameters": {
+						"tag": "\"Trilha sonora\""
+					}
+				}
+			],
+			"sid": 562102447751397
 		}
 	],
 	"sid": 131703037239747
