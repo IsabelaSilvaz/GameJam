@@ -1,0 +1,30 @@
+{
+	"name": "Folha tirinha2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 239707292835930,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 932626334194830,
+					"parameters": {
+						"layout": "Cenario-Briga"
+					}
+				}
+			],
+			"sid": 569242278816697
+		}
+	],
+	"sid": 499955243528138
+}
