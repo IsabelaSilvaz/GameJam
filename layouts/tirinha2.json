@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "fundoInicial",
+					"type": "Sprite24",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 31,
+					"uid": 49,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 775,
-						"y": 296,
-						"width": 939.864864864865,
-						"height": 609.2584269662922,
+						"x": 785,
+						"y": 304,
+						"width": 945,
+						"height": 603,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -36,7 +36,7 @@
 					}
 				}
 			],
-			"sid": 210439831670072,
+			"sid": 945965528323104,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -65,7 +65,7 @@
 			"global": false
 		}
 	],
-	"sid": 913156534041121,
+	"sid": 152971865877831,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1500,

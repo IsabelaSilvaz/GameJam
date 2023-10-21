@@ -385,9 +385,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 240936472350364,
+					"sid": 576241275940896,
 					"parameters": {
-						"layout": "Cenario-Briga"
+						"layout": "tirinha2"
 					}
 				}
 			],

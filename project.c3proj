@@ -146,7 +146,10 @@
 			"Sprite20",
 			"Sprite21",
 			"Sprite22",
-			"marcos_invertido"
+			"marcos_invertido",
+			"Sprite23",
+			"Sprite24",
+			"Sprite25"
 		],
 		"subfolders": []
 	},
@@ -163,7 +166,9 @@
 			"Cenario1",
 			"Cenario-Briga",
 			"GameOver",
-			"Continua"
+			"Continua",
+			"tirinha2",
+			"tirinhaFinal"
 		],
 		"subfolders": []
 	},
@@ -173,7 +178,8 @@
 			"folha tela inicial",
 			"FolhaGameOver",
 			"Folha Start",
-			"folhaCenario"
+			"folhaCenario",
+			"Folha tirinha2"
 		],
 		"subfolders": []
 	},

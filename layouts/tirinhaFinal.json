@@ -1,46 +1,13 @@
 {
-	"name": "Tela inicial",
+	"name": "tirinhaFinal",
 	"layers": [
-		{
-			"name": "Camada 1",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [],
-			"sid": 891112437812316,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				1,
-				1,
-				1,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
 		{
 			"name": "Camada 0",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite23",
+					"type": "Sprite25",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -48,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 31,
+					"uid": 50,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 789,
-						"y": 299,
-						"width": 945,
-						"height": 603,
+						"x": 746,
+						"y": 346.5,
+						"width": 1794,
+						"height": 1132,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -69,7 +36,7 @@
 					}
 				}
 			],
-			"sid": 118678233016073,
+			"sid": 308809969017770,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -98,14 +65,14 @@
 			"global": false
 		}
 	],
-	"sid": 156782906406770,
+	"sid": 785512184112077,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1700,
+	"width": 1500,
 	"height": 603,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "folha tela inicial"
+	"eventSheet": null
 }
