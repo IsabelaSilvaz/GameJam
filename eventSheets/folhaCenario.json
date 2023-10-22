@@ -262,10 +262,10 @@
 				{
 					"id": "subtract-from-eventvar",
 					"objectClass": "System",
-					"sid": 628798704147892,
+					"sid": 353293052513584,
 					"parameters": {
 						"variable": "vida2",
-						"value": "2"
+						"value": "1"
 					}
 				}
 			],
@@ -280,6 +280,16 @@
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 692265127992780
+		},
+		{
+			"eventType": "variable",
+			"name": "pulo",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 765846979403041
 		},
 		{
 			"eventType": "block",
@@ -304,9 +314,24 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 304880108000519,
+					"parameters": {
+						"variable": "pulo",
+						"value": "1"
+					}
+				},
+				{
+					"id": "flash",
 					"objectClass": "marcos_invertido",
-					"sid": 164757097953642
+					"sid": 947650390339695,
+					"behaviorType": "Piscar",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "1.0"
+					}
 				}
 			],
 			"sid": 870374905803342
@@ -324,9 +349,9 @@
 				{
 					"id": "set-animation-frame",
 					"objectClass": "vidas",
-					"sid": 914044595582776,
+					"sid": 711139118285173,
 					"parameters": {
-						"frame-number": "vida"
+						"frame-number": "vida2"
 					}
 				}
 			],
@@ -338,7 +363,7 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 910627606627741,
+					"sid": 797046899858656,
 					"parameters": {
 						"variable": "vida2",
 						"comparison": 0,
@@ -365,23 +390,8 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-destroyed",
-					"objectClass": "marcos_invertido",
-					"sid": 466656737136613
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 512944838611750,
-					"parameters": {
-						"layout": "tirinhaFinal"
-					}
-				}
-			],
+			"conditions": [],
+			"actions": [],
 			"sid": 440754424067320
 		},
 		{
@@ -458,6 +468,69 @@
 				}
 			],
 			"sid": 562102447751397
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 970410091727396,
+					"parameters": {
+						"variable": "pulo",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "marcos_invertido",
+					"sid": 492463705537644
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "espelho",
+					"sid": 615451765480077,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "espelho",
+					"sid": 797496003995954,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 329638925020419
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "boneco",
+					"sid": 257991489456807,
+					"parameters": {
+						"object": "espelho"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 722500976212991,
+					"parameters": {
+						"layout": "tirinhaFinal"
+					}
+				}
+			],
+			"sid": 852464564012831
 		}
 	],
 	"sid": 131703037239747

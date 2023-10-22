@@ -66,6 +66,15 @@
 						"variable": "pocoes",
 						"value": "0"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 879217377126552,
+					"parameters": {
+						"variable": "pulo",
+						"value": "0"
+					}
 				}
 			],
 			"sid": 324947103298628

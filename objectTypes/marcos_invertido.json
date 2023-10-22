@@ -9,6 +9,11 @@
 			"behaviorId": "Platform",
 			"name": "Plataforma",
 			"sid": 500154275328266
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Piscar",
+			"sid": 990468140074133
 		}
 	],
 	"effectTypes": [],

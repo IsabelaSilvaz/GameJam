@@ -493,6 +493,15 @@
 					"parameters": {
 						"layout": "GameOver"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 328630977971341,
+					"parameters": {
+						"variable": "pocoes",
+						"value": "0"
+					}
 				}
 			],
 			"sid": 142610400390298
